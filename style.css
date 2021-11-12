@@ -43,7 +43,7 @@ body{
     border-top-right-radius: 10px;
 }
 
-h3{
+h1{
     color:hsl(223, 47%, 23%) ;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 900;
@@ -62,7 +62,7 @@ p{
     text-align: center;
 }
 
-.card h3{
+.card h1{
     margin-top: 30px;
 }
 
@@ -180,14 +180,7 @@ footer{
 .footer-text a:hover{
     text-decoration: underline;
 }
-h5{
-   color:hsl(225, 100%, 94%); /*pale blue*/
-   background-color: hsl(245, 75%, 52%); /*bright blue*/
-   color: hsl(224, 23%, 55%); /*desaturated blue*/
-   color: hsl(223, 47%, 23%);/*dark blue*/
-   color:hsl(225, 100%, 98%) /* very pale blue*/
 
-} 
 
 @media (min-width: 200px) and (max-width:600px){
     
