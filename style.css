@@ -119,7 +119,7 @@ p{
 }
 
 .change:hover{
-    color:hsl(245, 75%, 52%) ;
+    color:hsl(223, 47%, 23%)  ;
 }
 #payment{
     background-color:hsl(245, 75%, 52%) ;
@@ -224,6 +224,17 @@ footer{
         margin-top: 40px;
         margin-bottom: 5px;
     }
+
+    #payment{
+        width: 85%;
+    
+    }
+
+    #cancel{
+        width:85%;
+    }
+
+
 
 
 
