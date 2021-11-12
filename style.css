@@ -17,7 +17,8 @@ body{
 .card-container{
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    align-items: center;
+    height: 100vh;
   
 
 }
