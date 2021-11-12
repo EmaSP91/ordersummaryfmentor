@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%  50%;
+    
+    background-color:hsl(225, 100%, 94%);
+   
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  
+
+}
+
+.card{
+    background-color: hsl(225, 100%, 98%);
+    width: 450px;
+    height: 585px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    
+}
+
+.card:hover{
+    box-shadow: 1px 1px 6px hsl(223, 32%, 76%);
+}
+.img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h3{
+    color:hsl(223, 47%, 23%) ;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    
+}
+
+p{
+    
+    color: hsl(224, 23%, 55%);
+    font-size: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.card h3{
+    margin-top: 30px;
+}
+
+.card p{
+    margin-top: 15px;
+}
+
+.card .annual{
+    margin-top:15px ;
+}
+
+.music{
+    margin-left: 15px;
+    margin-top: 14px;
+}
+
+.annual{
+    position: relative;
+    width: 75%;
+    height: 72px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 96%);
+}
+
+.annual-text{
+    color:hsl(223, 47%, 23%) ;
+    position: absolute;
+    top: -5px;
+    left: 30px;
+    font-family:'Red Hat Display', sans-serif; 
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.price{
+    color:hsl(224, 23%, 55%) ;
+    position: absolute;
+    top: 25px;
+    left:30px;
+    font-family:'Red Hat Display', sans-serif; 
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.change{
+    color: hsl(245, 75%, 52%) ;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    font-size: 0.80rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+}
+
+.change:hover{
+    color:hsl(245, 75%, 52%) ;
+}
+#payment{
+    background-color:hsl(245, 75%, 52%) ;
+    width: 75%;
+    height:40px ;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color:hsl(225, 100%, 98%) ;
+    border-style: none;
+    
+}
+
+#payment:hover{
+    background-color: hsl(245, 82%, 63%);
+    color:hsl(228, 100%, 95%) ;
+
+}
+
+#cancel{
+    background-color:hsl(225, 100%, 98%) ;
+    width: 75%;
+    height:40px ;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    border-style: none;
+    color: hsl(224, 23%, 55%);
+}
+
+#cancel:hover{
+    background-color:hsl(226, 100%, 91%) ;
+    color: hsl(224, 42%, 46%);
+
+
+}
+
+footer{
+    margin-top: 20px;
+}
+
+.footer-text{
+    text-align: center;
+    font-size: 0.85rem;
+   
+}
+
+.footer-text a{
+    text-decoration: none;
+    color:hsl(245, 75%, 52%) ;
+   
+}
+
+.footer-text a:hover{
+    text-decoration: underline;
+}
+h5{
+   color:hsl(225, 100%, 94%); /*pale blue*/
+   background-color: hsl(245, 75%, 52%); /*bright blue*/
+   color: hsl(224, 23%, 55%); /*desaturated blue*/
+   color: hsl(223, 47%, 23%);/*dark blue*/
+   color:hsl(225, 100%, 98%) /* very pale blue*/
+
+} 
+
+@media (min-width: 200px) and (max-width:600px){
+    
+    .body{
+        background-image: url(./images/pattern-background-mobile.svg);
+    }
+    
+    .card{
+        width:320px;
+        height: 530px;
+        
+    }
+
+    .img{
+        width: 320px;
+        height: 160px;
+    }
+
+    .annual{
+        width: 85%;
+    }
+
+    .annual-text{
+        position: absolute;
+        left:50px;
+    }
+
+    .price{
+        position: absolute;
+        left: 50px;
+    }
+
+    p{
+    
+       padding-left: 25px;
+       padding-right: 25px;
+    }
+
+    footer{
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+
+
+
+
+}
