@@ -136,9 +136,9 @@ p{
 }
 
 #payment:hover{
-    background-color: hsl(245, 82%, 63%);
+    background-color: hsl(245, 95%, 62%);
     color:hsl(228, 100%, 95%) ;
-
+    box-shadow: 1px 1px 6px hsl(245, 82%, 52%) ;
 }
 
 #cancel{
@@ -155,8 +155,9 @@ p{
 }
 
 #cancel:hover{
-    background-color:hsl(226, 100%, 91%) ;
+    background-color:hsl(226, 89%, 93%) ;
     color: hsl(224, 42%, 46%);
+    box-shadow: 1px 1px 6px hsl(224, 42%, 46%);
 
 
 }
